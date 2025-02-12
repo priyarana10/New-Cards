@@ -14,7 +14,7 @@ const Update = ({lists}) => {
                     </form>
                 </div>
                 <div className="side-link">
-                    {lists.map((index ,cards)=>(
+                    {lists.map(( cards,index)=>(
                         
                     <ul className="side-links" key={index} >
                         <li>

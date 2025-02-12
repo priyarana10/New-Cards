@@ -1,15 +1,18 @@
 import React from 'react'
 import "./Gener.css"
-const Gener = () => {
+const Gener = ({movies}) => {
   return (
     <>
+    <div className="container">
     <div className="main">
-        <div className="lists">
-            <img src="public/action.jpg" alt="" className="photos" />
-            <h3 className="names">knock-knock</h3>
-            <p className="years">2017</p>
-        </div>
-    </div>
+        {movies.map((cards)=>(
+            <div className="lists">
+            <img src={cards.images} alt="" className="photos" />
+            <h3 className="names">{cards.name}</h3>
+            <p className="years">{cards.year}</p>
+        </div>))}
+        
+    </div></div>
     </>
   )
 }
