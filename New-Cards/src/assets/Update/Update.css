@@ -7,24 +7,22 @@
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .side-links{
     list-style: none;
   }
-  .side-link{
-    margin-top: 10px;
-  }
   
   .side-items {
-    padding: 6px 10px 10px 16px;
+    padding: 6px 10px 8px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 26px;
     color: #818181;
     display: block;
+    cursor: pointer;
   }
   
-  .sidenav a:hover {
+  .sidenav p:hover {
     color: #f1f1f1;
   }
   .search-container {

@@ -28,14 +28,21 @@ h6 {
   margin: 0;
   padding: 0;
 }
+p{
+  margin: 0;
+  padding: 0;
+}
 body{
   flex-direction: column;
   background-color: rgb(51, 51, 51);
   /* place-items: none; */
 } 
-ul.side-links{
+li.side-links{
   margin: 0;
   padding: 0;
-  /* margin-left: 0; */
+  margin-left: 0;
+}
+ul{
+  padding: 0;
 }
 
